@@ -1,4 +1,4 @@
-const { calculateCommission, getConfigurationFromApi } = require("./calculateCommission");
+const { calculateCommission, getConfigurationFromApi } = require("../src/calculateCommission");
 
 describe("calculateCommission", () => {
   test("call api for coefficients", async () => {

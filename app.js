@@ -1,4 +1,4 @@
-const { calculateCommission, getConfigurationFromApi } = require("./calculateCommission");
+const { calculateCommission, getConfigurationFromApi } = require("./src/calculateCommission");
 const fs = require("fs");
 
 const input = JSON.parse(fs.readFileSync("input.json"));
